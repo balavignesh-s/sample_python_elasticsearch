@@ -54,4 +54,4 @@ q = TermQuery("name", "joe")
 results = conn.search(query = q)
 
 for r in results:
-   print r
+   print(r)
